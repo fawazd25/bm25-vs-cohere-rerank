@@ -1,5 +1,5 @@
 import json
-from bm25 import rechercher, RETIRER_MOTS_VIDES
+from bm25 import rechercher
 
 def charger_questions(chemin="questions.jsonl"):
     questions = []
@@ -37,6 +37,5 @@ def evaluer(rechercher, questions):
 if __name__ == "__main__":
     questions = charger_questions()
     reglage = [q for q in questions if q["split"] == "reglage"]
-    print(f"Mots vides retirés : {RETIRER_MOTS_VIDES}")
     r5, r20, mrr = evaluer(rechercher, reglage)
     print(f"recall@5 = {r5:.3f}   recall@20 = {r20:.3f}   MRR@20 = {mrr:.3f}")
