@@ -1,0 +1,30 @@
+{"id": "q01", "question": "En quoi consiste une injection de prompt ?", "relevant": ["owasp_01", "atlas_03"], "style": "litteral"}
+{"id": "q02", "question": "Existe-t-il une méthode qui empêche complètement une injection de prompt ?", "relevant": ["owasp_01"], "style": "litteral"}
+{"id": "q03", "question": "Par quels canaux une injection de prompt peut-elle atteindre un modèle ?", "relevant": ["owasp_01", "atlas_03"], "style": "reformule"}
+{"id": "q04", "question": "Qu'est-ce que la règle des deux pour sécuriser un agent d'IA ?", "relevant": ["owasp_02"], "style": "litteral"}
+{"id": "q05", "question": "Quelles sont les quatre phases de divulgation d'informations sensibles par un LLM ?", "relevant": ["owasp_04"], "style": "litteral"}
+{"id": "q06", "question": "Quels problèmes de conception donnent trop de pouvoir à un assistant IA ?", "relevant": ["owasp_06"], "style": "reformule"}
+{"id": "q07", "question": "La version compressée d'un modèle peut-elle être piégée alors que l'original est sain ?", "relevant": ["owasp_08"], "style": "reformule"}
+{"id": "q08", "question": "Qu'est-ce qu'un AIBOM et à quoi sert-il ?", "relevant": ["owasp_09", "atlas_02"], "style": "litteral"}
+{"id": "q09", "question": "Combien de documents empoisonnés suffisent à compromettre un modèle de 13 milliards de paramètres ?", "relevant": ["owasp_10", "atlas_08"], "style": "litteral"}
+{"id": "q10", "question": "Comment un attaquant peut-il faire exploser la facture d'un service d'IA sans le faire tomber ?", "relevant": ["owasp_12"], "style": "reformule"}
+{"id": "q11", "question": "Pourquoi fait-on facilement confiance à une réponse d'IA bien rédigée ?", "relevant": ["owasp_14"], "style": "reformule"}
+{"id": "q12", "question": "En quoi consiste le patron Claim-Check-Act ?", "relevant": ["owasp_15"], "style": "litteral"}
+{"id": "q13", "question": "Un attaquant peut-il découvrir les consignes secrètes qu'un développeur a données à un chatbot ?", "relevant": ["owasp_16", "atlas_15"], "style": "reformule"}
+{"id": "q14", "question": "Pourquoi ne faut-il jamais placer d'identifiants dans le system prompt ?", "relevant": ["owasp_17", "atlas_15", "atlas_19"], "style": "litteral"}
+{"id": "q15", "question": "Comment un attaquant peut-il rendre un assistant documentaire incapable de répondre à une question précise ?", "relevant": ["owasp_19"], "style": "reformule"}
+{"id": "q16", "question": "Où appliquer le filtrage des droits quand plusieurs clients partagent la même base de recherche sémantique ?", "relevant": ["owasp_20", "owasp_18"], "style": "reformule"}
+{"id": "q17", "question": "Pourquoi est-il dangereux d'exécuter tel quel du code renvoyé par un chatbot ?", "relevant": ["owasp_21", "atlas_05"], "style": "reformule"}
+{"id": "q18", "question": "Comment une consigne malveillante peut-elle revenir à chaque nouvelle conversation d'un utilisateur ?", "relevant": ["atlas_07", "owasp_01"], "style": "reformule"}
+{"id": "q19", "question": "Comment une attaque peut-elle contaminer plusieurs assistants qui se passent des messages ?", "relevant": ["atlas_09"], "style": "reformule"}
+{"id": "q20", "question": "Quelle différence y a-t-il entre un jailbreak et une injection de prompt ?", "relevant": ["atlas_11"], "style": "litteral"}
+{"id": "q21", "question": "Comment un attaquant fait-il passer une consigne interdite à travers un filtre de mots-clés ?", "relevant": ["atlas_12"], "style": "reformule"}
+{"id": "q22", "question": "Que faire quand un prompt prétend venir d'un administrateur ?", "relevant": ["atlas_14"], "style": "litteral"}
+{"id": "q23", "question": "Comment les noms de bibliothèques inventés par une IA peuvent-ils être exploités par un pirate ?", "relevant": ["atlas_16", "owasp_08", "owasp_15"], "style": "reformule"}
+{"id": "q24", "question": "Pourquoi un agent ne devrait-il pas révéler la liste de ses outils ?", "relevant": ["atlas_17"], "style": "litteral"}
+{"id": "q25", "question": "Que doit contenir une décision go/no-go avant de déployer une IA générative ?", "relevant": ["nist_03"], "style": "litteral"}
+{"id": "q26", "question": "Selon le NIST, quelles informations ajouter à l'inventaire des systèmes d'IA générative ?", "relevant": ["nist_06"], "style": "litteral"}
+{"id": "q27", "question": "Que faut-il prévoir avant de mettre hors service un chatbot auquel des utilisateurs sont attachés ?", "relevant": ["nist_07"], "style": "reformule"}
+{"id": "q28", "question": "Comment protéger un employé qui signale qu'un système d'IA de son entreprise met le public en danger ?", "relevant": ["nist_08"], "style": "reformule"}
+{"id": "q29", "question": "Quelles informations minimales doit contenir un signalement d'incident d'IA générative ?", "relevant": ["nist_12"], "style": "litteral"}
+{"id": "q30", "question": "Quelles clauses prévoir dans un contrat avec un fournisseur de modèles d'IA ?", "relevant": ["nist_14", "nist_15"], "style": "reformule"}
