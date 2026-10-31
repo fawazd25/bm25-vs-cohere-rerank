@@ -1,0 +1,267 @@
+{
+  "methode": "bm25",
+  "split": "test",
+  "date": "2026-10-31",
+  "n": 20,
+  "global": {
+    "recall@5": 0.85,
+    "recall@20": 0.9,
+    "mrr@20": 0.6733333333333333
+  },
+  "par_style": {
+    "litteral": {
+      "n": 12,
+      "recall@5": 1.0,
+      "recall@20": 1.0,
+      "mrr@20": 0.8777777777777778
+    },
+    "reformule": {
+      "n": 8,
+      "recall@5": 0.625,
+      "recall@20": 0.75,
+      "mrr@20": 0.3666666666666667
+    }
+  },
+  "questions": [
+    {
+      "id": "q10",
+      "style": "reformule",
+      "rang": 2,
+      "top5": [
+        "atlas_14",
+        "owasp_12",
+        "atlas_11",
+        "owasp_19",
+        "atlas_09"
+      ]
+    },
+    {
+      "id": "q26",
+      "style": "litteral",
+      "rang": 1,
+      "top5": [
+        "nist_06",
+        "nist_12",
+        "nist_11",
+        "nist_07",
+        "nist_03"
+      ]
+    },
+    {
+      "id": "q30",
+      "style": "reformule",
+      "rang": 2,
+      "top5": [
+        "nist_03",
+        "nist_14",
+        "atlas_02",
+        "owasp_09",
+        "nist_06"
+      ]
+    },
+    {
+      "id": "q22",
+      "style": "litteral",
+      "rang": 1,
+      "top5": [
+        "atlas_14",
+        "atlas_11",
+        "owasp_19",
+        "owasp_06",
+        "atlas_09"
+      ]
+    },
+    {
+      "id": "q17",
+      "style": "reformule",
+      "rang": 10,
+      "top5": [
+        "atlas_18",
+        "owasp_22",
+        "owasp_16",
+        "owasp_19",
+        "owasp_13"
+      ]
+    },
+    {
+      "id": "q28",
+      "style": "reformule",
+      "rang": null,
+      "top5": [
+        "atlas_01",
+        "atlas_02",
+        "atlas_06",
+        "owasp_13",
+        "owasp_17"
+      ]
+    },
+    {
+      "id": "q02",
+      "style": "litteral",
+      "rang": 1,
+      "top5": [
+        "owasp_01",
+        "atlas_03",
+        "owasp_21",
+        "atlas_11",
+        "atlas_05"
+      ]
+    },
+    {
+      "id": "q14",
+      "style": "litteral",
+      "rang": 1,
+      "top5": [
+        "atlas_19",
+        "owasp_17",
+        "atlas_15",
+        "owasp_16",
+        "atlas_09"
+      ]
+    },
+    {
+      "id": "q19",
+      "style": "reformule",
+      "rang": null,
+      "top5": [
+        "owasp_01",
+        "nist_07",
+        "atlas_15",
+        "owasp_06",
+        "owasp_02"
+      ]
+    },
+    {
+      "id": "q03",
+      "style": "reformule",
+      "rang": 2,
+      "top5": [
+        "nist_08",
+        "atlas_03",
+        "owasp_01",
+        "atlas_11",
+        "owasp_06"
+      ]
+    },
+    {
+      "id": "q18",
+      "style": "reformule",
+      "rang": 1,
+      "top5": [
+        "atlas_07",
+        "atlas_03",
+        "owasp_22",
+        "atlas_15",
+        "owasp_20"
+      ]
+    },
+    {
+      "id": "q29",
+      "style": "litteral",
+      "rang": 1,
+      "top5": [
+        "nist_12",
+        "nist_05",
+        "nist_06",
+        "nist_09",
+        "atlas_03"
+      ]
+    },
+    {
+      "id": "q05",
+      "style": "litteral",
+      "rang": 1,
+      "top5": [
+        "owasp_04",
+        "owasp_05",
+        "owasp_20",
+        "owasp_02",
+        "nist_05"
+      ]
+    },
+    {
+      "id": "q25",
+      "style": "litteral",
+      "rang": 1,
+      "top5": [
+        "nist_03",
+        "nist_09",
+        "atlas_03",
+        "owasp_20",
+        "atlas_02"
+      ]
+    },
+    {
+      "id": "q08",
+      "style": "litteral",
+      "rang": 5,
+      "top5": [
+        "atlas_13",
+        "atlas_06",
+        "atlas_18",
+        "owasp_19",
+        "owasp_09"
+      ]
+    },
+    {
+      "id": "q09",
+      "style": "litteral",
+      "rang": 1,
+      "top5": [
+        "atlas_08",
+        "owasp_10",
+        "atlas_06",
+        "owasp_11",
+        "atlas_16"
+      ]
+    },
+    {
+      "id": "q24",
+      "style": "litteral",
+      "rang": 1,
+      "top5": [
+        "atlas_17",
+        "owasp_02",
+        "atlas_10",
+        "atlas_03",
+        "atlas_18"
+      ]
+    },
+    {
+      "id": "q01",
+      "style": "litteral",
+      "rang": 3,
+      "top5": [
+        "atlas_09",
+        "atlas_12",
+        "owasp_01",
+        "owasp_21",
+        "atlas_11"
+      ]
+    },
+    {
+      "id": "q04",
+      "style": "litteral",
+      "rang": 1,
+      "top5": [
+        "owasp_02",
+        "owasp_09",
+        "owasp_06",
+        "atlas_19",
+        "nist_04"
+      ]
+    },
+    {
+      "id": "q21",
+      "style": "reformule",
+      "rang": 3,
+      "top5": [
+        "atlas_18",
+        "atlas_05",
+        "atlas_12",
+        "atlas_11",
+        "owasp_18"
+      ]
+    }
+  ]
+}
