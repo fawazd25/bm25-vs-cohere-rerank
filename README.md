@@ -118,3 +118,8 @@ The test commands refuse to run if their result file already exists: delete it t
 - NIST AI 600-1, *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile* (July 2024): [doi.org/10.6028/NIST.AI.600-1](https://doi.org/10.6028/NIST.AI.600-1).
 
 `corpus.jsonl` contains French summaries derived from these sources and is distributed under **CC BY-SA 4.0**.
+
+## Licence
+
+- **Code:** MIT (see [`LICENSE`](LICENSE)).
+- **Corpus (`corpus.jsonl`):** CC BY-SA 4.0, as a derivative of the OWASP Top 10 for LLM Applications.
