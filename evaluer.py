@@ -1,9 +1,12 @@
 import json
 import sys
+import bm25
+import rerank
 from datetime import date
 from pathlib import Path
 
-from bm25 import rechercher
+
+METHODES = {"bm25": bm25.rechercher, "rerank": rerank.rechercher}
 
 
 def charger_questions(chemin="questions.jsonl"):
@@ -77,11 +80,17 @@ def evaluer_test(rechercher, questions, methode):
 
 
 if __name__ == "__main__":
-    # python evaluer.py pour les questions de réglage (autant de fois qu'on veut)
-    # python evaluer.py test pour les questions de test, une seule fois, enregistré dans resultats/
-    questions = charger_questions()
-    if len(sys.argv) > 1 and sys.argv[1] == "test":
-        evaluer_test(rechercher, questions, "bm25")
-    else:
-        reglage = [q for q in questions if q["split"] == "reglage"]
-        afficher("reglage", *evaluer(rechercher, reglage))
+        # python evaluer.py réglage, BM25
+        # python evaluer.py rerank réglage, BM25 + Rerank
+        # python evaluer.py test  test, BM25 (une seule fois)
+        # python evaluer.py test rerank test, BM25 + Rerank (une seule fois)
+        args = sys.argv[1:]
+        methode = "rerank" if "rerank" in args else "bm25"
+        rechercher = METHODES[methode]
+        questions = charger_questions()
+
+        if "test" in args:
+            evaluer_test(rechercher, questions, methode)
+        else:
+            reglage = [q for q in questions if q["split"] == "reglage"]
+            afficher(f"{methode}", *evaluer(rechercher, reglage))
